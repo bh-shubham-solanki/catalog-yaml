@@ -1,0 +1,42 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ahm-product
+  description: Product Catalog
+  tags:
+    - python
+    - ecommerce
+  links:
+    - url: https://example.com/infra-automations
+      title: Infra Automations
+      icon: build
+    - url: https://example.com/infra-access
+      title: Infra Access
+      icon: vpn_key
+    - url: https://example.com/log-defect
+      title: Log a Defect
+      icon: bug_report
+    - url: https://example.com/new-app-ci-request
+      title: New App CI Request
+      icon: add_circle
+    - url: https://example.com/create-change-order
+      title: Create Change Order
+      icon: assignment
+    - url: https://example.com/privacy
+      title: Privacy
+      icon: lock
+    - url: https://example.com/terms
+      title: Terms
+      icon: gavel
+      
+  annotations:
+    backstage.io/source-template: template:default/python-template
+    backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/catalog'
+spec:
+  type: product
+  EnvironmentName: "add environment name here" 
+  lifecycle: production
+  owner: team-b
+  system: ecommerce-platform
+  dependsOn: ['resource:product-db', 'resource:inventory-db']
+  apiConsumedBy: ['component:www-storefront', 'component:www-admin']
