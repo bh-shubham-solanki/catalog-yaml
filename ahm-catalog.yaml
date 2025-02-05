@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ahm-product
+  name: "AHM"
   description: Product Catalog
   tags:
     - python
@@ -32,6 +32,7 @@ metadata:
   annotations:
     backstage.io/source-template: template:default/python-template
     backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/catalog'
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: product
   EnvironmentName: "add environment name here" 
