@@ -32,7 +32,7 @@ metadata:
   annotations:
     backstage.io/source-template: template:default/python-template
     backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/catalog'
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: url:'https://github.com/bh-ent-tech/cordant-infra-github-pages/blob/main/content/en/docs/ahm-cordant-npazeus1/index.md'
 spec:
   type: product
   EnvironmentName: "add environment name here" 
