@@ -4,8 +4,8 @@ metadata:
   name: "AI_search"
   description: "Construct for using Azure AI Search Service with private endpoint."
   tags:
-    - python
-    - ecommerce
+    - construct
+    - bicep
   links:
     - url: https://example.com/infra-automations
       title: Infra Automations
