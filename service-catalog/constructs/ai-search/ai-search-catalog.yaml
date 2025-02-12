@@ -3,11 +3,12 @@ kind: Component
 metadata:
   name: "AI_search"
   title: "AI Search 0.1.1 (construct)"
+  currentRelease: "2024-10-23"
   description: "Construct for using Azure AI Search Service with private endpoint."
   tags:
     - construct
     - bicep
-  currentRelease: "2024-10-23"
+  
   links:
     - url: https://example.com/infra-automations
       title: Infra Automations
