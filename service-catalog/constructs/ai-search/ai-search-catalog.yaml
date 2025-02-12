@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "AI_search"
-  title: "AI Search (construct) "
+  title: "AI Search 2.0 (construct) "
   description: "Construct for using Azure AI Search Service with private endpoint."
   tags:
     - construct
