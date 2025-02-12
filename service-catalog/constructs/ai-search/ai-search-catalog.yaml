@@ -7,7 +7,7 @@ metadata:
   tags:
     - construct
     - bicep
-  release: "2024-10-23"  
+    
   links:
     - url: https://example.com/infra-automations
       title: Infra Automations
@@ -41,5 +41,6 @@ spec:
   lifecycle: production
   owner: 'cordant-platform-engineering-team'
   # system: 'to be added'
+  release: "2024-10-23"
   dependsOn: ['resource:product-db', 'resource:inventory-db']
   apiConsumedBy: ['component:www-storefront', 'component:www-admin']
