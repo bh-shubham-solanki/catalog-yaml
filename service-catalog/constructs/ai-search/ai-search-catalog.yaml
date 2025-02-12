@@ -39,6 +39,6 @@ spec:
   EnvironmentName: "add environment name here" 
   lifecycle: production
   owner: 'cordant-platform-engineering-team'
-  system: 'to be added'
+  # system: 'to be added'
   dependsOn: ['resource:product-db', 'resource:inventory-db']
   apiConsumedBy: ['component:www-storefront', 'component:www-admin']
