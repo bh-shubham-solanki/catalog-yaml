@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "Alert_rule"
-  title: "Alert Rules (construct) "
+  title: "Alert Rules 0.1.3 (construct) "
   description: "This construct is for creating Metric Alert rules"
   tags:
     - construct
