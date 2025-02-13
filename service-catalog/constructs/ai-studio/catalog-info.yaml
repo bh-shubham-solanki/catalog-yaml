@@ -7,8 +7,6 @@ metadata:
   tags:
     - construct
     - bicep
-  annotations:
-    release: q2-24
   links:
     - url: https://example.com/infra-automations
       title: Infra Automations
@@ -36,6 +34,7 @@ metadata:
     backstage.io/source-template: template:default/python-template
     backstage.io/linguist: 'https://github.com/backstage/backstage/tree/master/plugins/catalog'
     backstage.io/techdocs-ref: dir:.
+    release: q2-24
 spec:
   type: service
   EnvironmentName: "add environment name here" 
