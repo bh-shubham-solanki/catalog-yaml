@@ -7,6 +7,8 @@ metadata:
   tags:
     - construct
     - bicep
+  annotations:
+    release: q2-24
   links:
     - url: https://example.com/infra-automations
       title: Infra Automations
