@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bicep-constructs-application-gateway-tenant-configuration
+  description: Repository for construct
+spec:
+  type: construct
+  lifecycle: production
+  owner: team-name
