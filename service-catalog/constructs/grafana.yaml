@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: grafana
+  description: Repository for construct
+spec:
+  type: construct
+  lifecycle: production
+  owner: team-name
+  latestTag: 0.1.3
+  latestDate: 2025-02-27T17:22:48.886Z
+  manifestDetails:
+    - digest: sha256:46bbcd1334afcb56cbd49b9e9e26c71951addf6215cb361718adaa2634733b14
+      tags:
+        - 0.1.2
+      createdOn: 2025-01-24T05:03:41.134Z
+      lastUpdatedOn: 2025-01-24T05:03:41.134Z
+    - digest: sha256:5217e6a673930d440026f4000ee3c50a08b6a30ff27d7b520fa8ea2834a0e57c
+      tags:
+        - 0.1.3
+      createdOn: 2025-02-27T17:22:48.886Z
+      lastUpdatedOn: 2025-02-27T17:22:48.886Z
+    - digest: sha256:add53f19d6039a910eda6b3dbfa56a6bc6a029acf8f7f974c3a4e9a9b73a225e
+      tags:
+        - 0.1.1
+      createdOn: 2024-10-30T13:22:25.539Z
+      lastUpdatedOn: 2024-10-30T13:22:25.539Z
