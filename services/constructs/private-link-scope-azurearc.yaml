@@ -1,0 +1,30 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: private-link-scope-azurearc
+  description: Repository for constructs
+  annotations:
+    backstage.io/managed-by-location: >-
+      url:https://contregietbmrpet01.azurecr.io/bicep/constructs/private-link-scope-azurearc
+    backstage.io/managed-by-origin-location: >-
+      url:https://contregietbmrpet01.azurecr.io/bicep/constructs/private-link-scope-azurearc
+  tags:
+    - constructs
+    - container
+    - azure
+spec:
+  type: constructs
+  lifecycle: production
+  owner: team-name
+  links:
+    - url: >-
+        https://contregietbmrpet01.azurecr.io/bicep/constructs/private-link-scope-azurearc
+      title: Container Registry
+      icon: link
+  version: 0.1.1
+  manifests:
+    - digest: sha256:f67c550dd6e3e00ddecb31a9e886cf138d6bb0c404732d67ac14d0c4925fdad3
+      tags:
+        - 0.1.1
+      createdOn: 2025-03-24T13:07:49.705Z
+      lastUpdatedOn: 2025-03-24T13:07:49.705Z
