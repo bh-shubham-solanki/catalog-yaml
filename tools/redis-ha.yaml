@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+  description: Helm chart for redis-ha
+  name: redis-ha
+spec:
+  appVersion: 7.2.4
+  chartVersion: 4.26.1
+  lifecycle: production
+  owner: platform-team
+  type: service
