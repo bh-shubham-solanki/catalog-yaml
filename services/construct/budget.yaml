@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: infra-service/construct
+metadata:
+  name: budget
+  description: Repository for construct
+  annotations:
+    backstage.io/managed-by-location: url:https://contregietbmrpet01.azurecr.io/bicep/constructs/budget
+    backstage.io/managed-by-origin-location: url:https://contregietbmrpet01.azurecr.io/bicep/constructs/budget
+  tags:
+    - construct
+    - container
+    - azure
+spec:
+  type: construct
+  lifecycle: production
+  owner: team-name
+  links:
+    - url: https://contregietbmrpet01.azurecr.io/bicep/constructs/budget
+      title: Container Registry
+      icon: link
+  version: 0.1.1
+  manifests:
+    - digest: sha256:80c2b1e965a23a54bd6953c3f27fbcdd1370f3543a8fd61670faeeef6368249a
+      tags:
+        - 0.1.1
+      createdOn: 2024-07-08T12:19:03.855Z
+      lastUpdatedOn: 2024-07-08T12:19:03.855Z
