@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: data-factory
+  description: Repository for constructs
+  annotations:
+    backstage.io/managed-by-location: url:https://contregietbmrpet01.azurecr.io/bicep/constructs/data-factory
+    backstage.io/managed-by-origin-location: url:https://contregietbmrpet01.azurecr.io/bicep/constructs/data-factory
+  tags:
+    - constructs
+    - container
+    - azure
+spec:
+  type: constructs
+  lifecycle: production
+  owner: team-name
+  links:
+    - url: https://contregietbmrpet01.azurecr.io/bicep/constructs/data-factory
+      title: Container Registry
+      icon: link
+  version: 0.1.1
+  manifests:
+    - digest: sha256:a713061a22e5fcc64e79857965a36764e7c40ca4f77717562d87025c062faaa7
+      tags:
+        - 0.1.1
+      createdOn: 2024-04-19T07:41:25.214Z
+      lastUpdatedOn: 2024-04-19T07:41:25.214Z
