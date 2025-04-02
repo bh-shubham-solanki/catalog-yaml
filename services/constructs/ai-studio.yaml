@@ -1,0 +1,52 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ai-studio
+  description: Repository for constructs
+  annotations:
+    backstage.io/managed-by-location: url:https://contregietbmrpet01.azurecr.io/bicep/constructs/ai-studio
+    backstage.io/managed-by-origin-location: url:https://contregietbmrpet01.azurecr.io/bicep/constructs/ai-studio
+  tags:
+    - constructs
+    - container
+    - azure
+spec:
+  type: constructs
+  lifecycle: production
+  owner: team-name
+  links:
+    - url: https://contregietbmrpet01.azurecr.io/bicep/constructs/ai-studio
+      title: Container Registry
+      icon: link
+  version: 0.2.5
+  manifests:
+    - digest: sha256:1b235121165e6a42bdb0c033ca359f50cb3f6733bda5efa3edd6b3402ab2148a
+      tags:
+        - 0.2.0
+      createdOn: 2024-10-11T07:03:56.870Z
+      lastUpdatedOn: 2024-10-11T07:03:56.870Z
+    - digest: sha256:2ff20a526f161f9cc672c9f0e28283e442c1283a9b2ff389bfd2e5242667ace0
+      tags:
+        - 0.2.1
+      createdOn: 2024-10-18T12:03:20.955Z
+      lastUpdatedOn: 2024-10-18T12:03:20.955Z
+    - digest: sha256:5c52b3ddf1d13fd090a944075bc087e1a22ce961e2ebf3f4211b5e6fb191f8fa
+      tags:
+        - 0.2.2
+      createdOn: 2024-11-21T06:22:40.520Z
+      lastUpdatedOn: 2024-11-21T06:22:40.520Z
+    - digest: sha256:7056cc3fb4e3dbcbf46b9701eb18213065d42fa793c54ad6d07b373756bb62cb
+      tags:
+        - 0.2.4
+      createdOn: 2025-01-03T08:18:53.452Z
+      lastUpdatedOn: 2025-01-03T08:18:53.452Z
+    - digest: sha256:a98aa63efe3cdeec18f7f7fdf1ce41242a636c73be663a58646b4de1eb4a27d1
+      tags:
+        - 0.2.3
+      createdOn: 2024-12-11T08:45:20.813Z
+      lastUpdatedOn: 2024-12-11T08:45:20.813Z
+    - digest: sha256:c0f12adf5175e1befa048a104dd61c8975ff752a95d39aa460437a9f31383401
+      tags:
+        - 0.2.5
+      createdOn: 2025-01-03T10:26:10.997Z
+      lastUpdatedOn: 2025-01-03T10:26:10.997Z
