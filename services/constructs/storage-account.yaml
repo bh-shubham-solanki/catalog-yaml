@@ -1,0 +1,63 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: storage-account
+  description: Repository for constructs
+  annotations:
+    backstage.io/managed-by-location: url:https://contregietbmrpet01.azurecr.io/bicep/constructs/storage-account
+    backstage.io/managed-by-origin-location: url:https://contregietbmrpet01.azurecr.io/bicep/constructs/storage-account
+  tags:
+    - constructs
+    - container
+    - azure
+spec:
+  type: constructs
+  lifecycle: production
+  owner: team-name
+  links:
+    - url: >-
+        https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/storage-account/main.bicep
+      title: Source Code
+      icon: link
+    - url: >-
+        https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/storage-account/README.md
+      title: Readme
+      icon: link
+  version: 0.2.7
+  manifests:
+    - tags:
+        - 0.1.2
+      createdOn: 2023-06-19T13:28:27.182Z
+      lastUpdatedOn: 2023-06-19T13:28:27.182Z
+    - tags:
+        - 0.2.3
+      createdOn: 2024-02-20T12:44:57.551Z
+      lastUpdatedOn: 2024-02-20T12:44:57.551Z
+    - tags:
+        - 0.2.7
+      createdOn: 2024-08-16T09:56:33.323Z
+      lastUpdatedOn: 2024-08-16T09:56:33.323Z
+    - tags:
+        - 0.2.5
+      createdOn: 2024-04-02T09:28:54.435Z
+      lastUpdatedOn: 2024-04-02T09:28:54.435Z
+    - tags:
+        - 0.2.6
+      createdOn: 2024-07-23T05:08:46.570Z
+      lastUpdatedOn: 2024-07-23T05:08:46.570Z
+    - tags:
+        - 0.1.1
+      createdOn: 2023-06-13T21:53:55.005Z
+      lastUpdatedOn: 2023-06-13T21:53:55.005Z
+    - tags:
+        - 0.2.4
+      createdOn: 2024-03-08T09:30:52.430Z
+      lastUpdatedOn: 2024-03-08T09:30:52.430Z
+    - tags:
+        - 0.2.1
+      createdOn: 2023-12-14T14:24:53.391Z
+      lastUpdatedOn: 2023-12-14T14:24:53.391Z
+    - tags:
+        - 0.2.2
+      createdOn: 2024-01-24T13:47:28.644Z
+      lastUpdatedOn: 2024-01-24T13:47:28.644Z
