@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+  description: Helm chart for redisinsight
+  name: redisinsight
+spec:
+  appVersion: 1.16.0
+  chartVersion: 0.1.2
+  lifecycle: production
+  owner: platform-team
+  type: service
