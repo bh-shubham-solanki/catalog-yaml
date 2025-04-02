@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: infra-service/construct
+metadata:
+  name: ai-search
+  description: Repository for construct
+  annotations:
+    backstage.io/managed-by-location: url:https://contregietbmrpet01.azurecr.io/bicep/constructs/ai-search
+    backstage.io/managed-by-origin-location: url:https://contregietbmrpet01.azurecr.io/bicep/constructs/ai-search
+  tags:
+    - construct
+    - container
+    - azure
+spec:
+  type: construct
+  lifecycle: production
+  owner: team-name
+  links:
+    - url: https://contregietbmrpet01.azurecr.io/bicep/constructs/ai-search
+      title: Container Registry
+      icon: link
+  version: 0.1.1
+  manifests:
+    - digest: sha256:cafafbdc3a9134354d1f2585e026566397438f7fe522e85141130c7230a3efa0
+      tags:
+        - 0.1.1
+      createdOn: 2024-10-23T13:19:23.647Z
+      lastUpdatedOn: 2024-10-23T13:19:23.647Z
