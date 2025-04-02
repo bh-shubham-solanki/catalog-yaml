@@ -1,0 +1,45 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: log-analytics-workspace
+  description: Repository for construct
+  annotations:
+    backstage.io/managed-by-location: >-
+      url:https://contregietbmrpet01.azurecr.io/bicep/constructs/log-analytics-workspace
+    backstage.io/managed-by-origin-location: >-
+      url:https://contregietbmrpet01.azurecr.io/bicep/constructs/log-analytics-workspace
+  tags:
+    - construct
+    - container
+    - azure
+spec:
+  type: construct
+  lifecycle: production
+  owner: team-name
+  links:
+    - url: >-
+        https://contregietbmrpet01.azurecr.io/bicep/constructs/log-analytics-workspace
+      title: Container Registry
+      icon: link
+  version: 0.2.4
+  manifests:
+    - digest: sha256:208ba3d5883e19846c63ed119082733a777cc61c4fcf2e38bb09a26df30a7b6a
+      tags:
+        - 0.2.4
+      createdOn: 2024-07-19T08:15:17.471Z
+      lastUpdatedOn: 2024-07-19T08:15:17.471Z
+    - digest: sha256:8f4a7bc3b59abf9b981cf41e53370a051101bec539f66ca478e4308a94741063
+      tags:
+        - 0.2.3
+      createdOn: 2024-04-22T05:42:17.459Z
+      lastUpdatedOn: 2024-04-22T05:42:17.459Z
+    - digest: sha256:d46d4986a9fbfae731c7699b32ef011e0f3f0cbece73053eeb803600caaf8232
+      tags:
+        - 0.2.1
+      createdOn: 2023-06-27T12:29:03.156Z
+      lastUpdatedOn: 2023-06-27T12:29:03.156Z
+    - digest: sha256:ee18778aba66b3412d51c3f0fd73a60285b63d7d0f5cac4a5fb33a333945c497
+      tags:
+        - 0.2.2
+      createdOn: 2024-03-06T08:59:16.132Z
+      lastUpdatedOn: 2024-03-06T08:59:16.132Z
