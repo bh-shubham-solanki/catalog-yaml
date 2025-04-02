@@ -1,0 +1,30 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: prometheus-rule-group
+  description: Repository for construct
+  annotations:
+    backstage.io/managed-by-location: >-
+      url:https://contregietbmrpet01.azurecr.io/bicep/constructs/prometheus-rule-group
+    backstage.io/managed-by-origin-location: >-
+      url:https://contregietbmrpet01.azurecr.io/bicep/constructs/prometheus-rule-group
+  tags:
+    - construct
+    - container
+    - azure
+spec:
+  type: construct
+  lifecycle: production
+  owner: team-name
+  links:
+    - url: >-
+        https://contregietbmrpet01.azurecr.io/bicep/constructs/prometheus-rule-group
+      title: Container Registry
+      icon: link
+  version: 0.1.1
+  manifests:
+    - digest: sha256:3f6aefaca869315cb52e30f6dc9277941b004449f922f88bac046afb589d270e
+      tags:
+        - 0.1.1
+      createdOn: 2025-03-24T14:32:44.804Z
+      lastUpdatedOn: 2025-03-24T14:32:44.804Z
