@@ -1,0 +1,30 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cognitive-services
+  description: Repository for constructs
+  annotations:
+    backstage.io/managed-by-location: >-
+      url:https://contregietbmrpet01.azurecr.io/bicep/constructs/cognitive-services
+    backstage.io/managed-by-origin-location: >-
+      url:https://contregietbmrpet01.azurecr.io/bicep/constructs/cognitive-services
+  tags:
+    - constructs
+    - container
+    - azure
+spec:
+  type: constructs
+  lifecycle: production
+  owner: team-name
+  links:
+    - url: >-
+        https://contregietbmrpet01.azurecr.io/bicep/constructs/cognitive-services
+      title: Container Registry
+      icon: link
+  version: 0.1.1
+  manifests:
+    - digest: sha256:d2c3eb678ed5c8df54f095e595fc0c1ecb14e606ad534831ed85544130fb20df
+      tags:
+        - 0.1.1
+      createdOn: 2024-10-10T14:48:31.780Z
+      lastUpdatedOn: 2024-10-10T14:48:31.780Z
