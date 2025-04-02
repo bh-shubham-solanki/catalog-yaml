@@ -1,0 +1,79 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: service-bus
+  description: Repository for constructs
+  annotations:
+    backstage.io/managed-by-location: url:https://contregietbmrpet01.azurecr.io/bicep/constructs/service-bus
+    backstage.io/managed-by-origin-location: url:https://contregietbmrpet01.azurecr.io/bicep/constructs/service-bus
+  tags:
+    - constructs
+    - container
+    - azure
+spec:
+  type: constructs
+  lifecycle: production
+  owner: team-name
+  links:
+    - url: >-
+        https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/service-bus/main.bicep
+      title: Source Code
+      icon: link
+    - url: >-
+        https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/service-bus/README.md
+      title: Readme
+      icon: link
+  version: 0.3.11
+  manifests:
+    - tags:
+        - 0.3.3
+      createdOn: 2024-01-29T06:50:23.416Z
+      lastUpdatedOn: 2024-01-29T06:50:23.416Z
+    - tags:
+        - 0.1.1
+      createdOn: 2023-06-13T21:54:37.375Z
+      lastUpdatedOn: 2023-06-13T21:54:37.375Z
+    - tags:
+        - 0.3.10
+      createdOn: 2025-02-18T12:10:56.777Z
+      lastUpdatedOn: 2025-02-18T12:10:56.777Z
+    - tags:
+        - 0.3.2
+      createdOn: 2024-01-16T11:03:09.270Z
+      lastUpdatedOn: 2024-01-16T11:03:09.270Z
+    - tags:
+        - 0.3.7
+      createdOn: 2024-06-06T14:04:19.233Z
+      lastUpdatedOn: 2024-06-06T14:04:19.233Z
+    - tags:
+        - 0.3.6
+      createdOn: 2024-05-16T13:17:59.137Z
+      lastUpdatedOn: 2024-05-16T13:17:59.137Z
+    - tags:
+        - 0.2.1
+      createdOn: 2023-06-28T12:56:55.604Z
+      lastUpdatedOn: 2023-06-28T12:56:55.604Z
+    - tags:
+        - 0.3.5
+      createdOn: 2024-03-11T15:00:18.616Z
+      lastUpdatedOn: 2024-03-11T15:00:18.616Z
+    - tags:
+        - 0.3.9
+      createdOn: 2025-02-04T17:18:15.741Z
+      lastUpdatedOn: 2025-02-04T17:18:15.741Z
+    - tags:
+        - 0.3.1
+      createdOn: 2023-12-14T14:26:40.040Z
+      lastUpdatedOn: 2023-12-14T14:26:40.040Z
+    - tags:
+        - 0.3.8
+      createdOn: 2024-08-16T13:11:47.982Z
+      lastUpdatedOn: 2024-08-16T13:11:47.982Z
+    - tags:
+        - 0.3.11
+      createdOn: 2025-02-20T14:44:41.043Z
+      lastUpdatedOn: 2025-02-20T14:44:41.043Z
+    - tags:
+        - 0.3.4
+      createdOn: 2024-02-15T15:04:54.352Z
+      lastUpdatedOn: 2024-02-15T15:04:54.352Z
