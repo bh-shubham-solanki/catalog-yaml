@@ -1,0 +1,120 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kubernetes-service
+  description: Repository for constructs
+  annotations:
+    backstage.io/managed-by-location: >-
+      url:https://contregietbmrpet01.azurecr.io/bicep/constructs/kubernetes-service
+    backstage.io/managed-by-origin-location: >-
+      url:https://contregietbmrpet01.azurecr.io/bicep/constructs/kubernetes-service
+  tags:
+    - constructs
+    - container
+    - azure
+spec:
+  type: constructs
+  lifecycle: production
+  owner: team-name
+  links:
+    - url: >-
+        https://contregietbmrpet01.azurecr.io/bicep/constructs/kubernetes-service
+      title: Container Registry
+      icon: link
+  version: 0.8.6
+  manifests:
+    - digest: sha256:0b96176a474775681899e8b06fab5278aed63f96b885b47aec32067d1652d3b4
+      tags:
+        - 0.4.5
+      createdOn: 2024-06-05T14:54:06.012Z
+      lastUpdatedOn: 2024-06-05T14:54:06.012Z
+    - digest: sha256:1f20a5e9f8e6e68cc3b1d81dabdf74883c2d2bd13d20bd831013abcb874c6920
+      tags:
+        - 0.2.1
+      createdOn: 2023-06-21T12:06:57.399Z
+      lastUpdatedOn: 2023-06-21T12:06:57.399Z
+    - digest: sha256:244c4efa6fbc9ecb9db1e87a2bc3b7465ed205ae5352bbf6e24321c24a39536c
+      tags:
+        - 0.4.3
+      createdOn: 2024-02-28T07:29:51.488Z
+      lastUpdatedOn: 2024-02-28T07:29:51.488Z
+    - digest: sha256:3b3623d9e6dc86db404788f39e7e131c46be10d950258394f54286fe4ab31e07
+      tags:
+        - 0.6.2
+      createdOn: 2024-06-28T16:03:10.590Z
+      lastUpdatedOn: 2024-06-28T16:03:10.590Z
+    - digest: sha256:3d5837c69275f194de2db0469e62b9cdc0ef18058a316aefdee42d9b0828d5b2
+      tags:
+        - 0.5.1
+      createdOn: 2024-06-06T14:13:50.584Z
+      lastUpdatedOn: 2024-06-06T14:13:50.584Z
+    - digest: sha256:5800f7b7168bca6e3a08e34fa500e616ca5e01f3a6c28b1e5bc506c08cb7d7cb
+      tags:
+        - 0.8.3
+      createdOn: 2025-01-24T09:21:17.454Z
+      lastUpdatedOn: 2025-01-24T09:21:17.454Z
+    - digest: sha256:600fb30cdaef428d15fd3967bf5755e879b1315908b6d931de08747a922a0d7f
+      tags:
+        - 0.8.1
+      createdOn: 2024-09-10T10:42:03.840Z
+      lastUpdatedOn: 2024-09-10T10:42:03.840Z
+    - digest: sha256:60f9d2a0ddddf3012c76a357a5e14865c53d21d1d5958628cf359217545e6ff8
+      tags:
+        - 0.4.2
+      createdOn: 2023-10-12T16:09:18.375Z
+      lastUpdatedOn: 2023-10-12T16:09:18.375Z
+    - digest: sha256:61df72dd1b2fbbf358774791331feaa6d2037024ef5cd61682531a2c2da75cdb
+      tags:
+        - 0.3.1
+      createdOn: 2023-08-30T13:56:19.661Z
+      lastUpdatedOn: 2023-08-30T13:56:19.661Z
+    - digest: sha256:7c3429f4d9b72b89abe73451b5654d76999f985b023c68bfecada4103dadd736
+      tags:
+        - 0.7.1
+      createdOn: 2024-07-08T12:09:59.332Z
+      lastUpdatedOn: 2024-07-08T12:09:59.332Z
+    - digest: sha256:893892d3c00a2451635e271343ca7140331db99b279fb4d383e45d29634603c4
+      tags:
+        - 0.2.2
+      createdOn: 2023-08-23T12:46:50.678Z
+      lastUpdatedOn: 2023-08-23T12:46:50.678Z
+    - digest: sha256:98d5b1b8a45a42772f4d2afe3b785a1d522893ee2730b88de4e25fd3a769cf34
+      tags:
+        - 0.8.2
+      createdOn: 2024-09-10T13:04:18.223Z
+      lastUpdatedOn: 2024-09-10T13:04:18.223Z
+    - digest: sha256:a3765e1c78e07656c62b9993daae4fea13a3123ecf4552d6ad2317b1b336a563
+      tags:
+        - 0.7.2
+      createdOn: 2024-07-08T15:43:00.672Z
+      lastUpdatedOn: 2024-07-08T15:43:00.672Z
+    - digest: sha256:ae22148899e65be82d85fb775c573e52d79fceb4d4a0643c303a1be0b6409648
+      tags:
+        - 0.6.1
+      createdOn: 2024-06-27T15:15:21.924Z
+      lastUpdatedOn: 2024-06-27T15:15:21.924Z
+    - digest: sha256:b1fb300d7eb8efd1bc508059dea21b2fdbdcf030d93d3fef7c4da4576b11b7c7
+      tags:
+        - 0.4.1
+      createdOn: 2023-10-12T10:00:11.373Z
+      lastUpdatedOn: 2023-10-12T10:00:11.373Z
+    - digest: sha256:d48b3dbdb82973be8beb26b24a26afac38caf868d82d67b993048a93c692da74
+      tags:
+        - 0.8.5
+      createdOn: 2025-03-19T14:06:48.539Z
+      lastUpdatedOn: 2025-03-19T14:06:48.539Z
+    - digest: sha256:d7b32ab4d161cd5ddf6da324205f960107dc68b70dbf858aa61263913a527db5
+      tags:
+        - 0.4.4
+      createdOn: 2024-03-11T15:01:00.402Z
+      lastUpdatedOn: 2024-03-11T15:01:00.402Z
+    - digest: sha256:e6851853d5caa93c64228cb0961580caff33b3e0d0ce5b600cd3f302efbf5601
+      tags:
+        - 0.8.6
+      createdOn: 2025-03-20T14:14:57.314Z
+      lastUpdatedOn: 2025-03-20T14:14:57.314Z
+    - digest: sha256:f302ece4850cd5dcc6c178e0444d617d7a4b81b16692521a5400ea8c2835bdcf
+      tags:
+        - 0.8.4
+      createdOn: 2025-01-27T15:03:03.499Z
+      lastUpdatedOn: 2025-01-27T15:03:03.499Z
