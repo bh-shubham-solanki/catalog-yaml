@@ -1,0 +1,41 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: azure-monitor-workspace
+  description: Repository for constructs
+  annotations:
+    backstage.io/managed-by-location: >-
+      url:https://contregietbmrpet01.azurecr.io/bicep/constructs/azure-monitor-workspace
+    backstage.io/managed-by-origin-location: >-
+      url:https://contregietbmrpet01.azurecr.io/bicep/constructs/azure-monitor-workspace
+  tags:
+    - constructs
+    - container
+    - azure
+spec:
+  type: constructs
+  lifecycle: production
+  owner: team-name
+  links:
+    - url: >-
+        https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/azure-monitor-workspace/main.bicep
+      title: Source Code
+      icon: link
+    - url: >-
+        https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/azure-monitor-workspace/README.md
+      title: Readme
+      icon: link
+  version: 0.3.3
+  manifests:
+    - tags:
+        - 0.3.2
+      createdOn: 2025-02-10T16:04:24.464Z
+      lastUpdatedOn: 2025-02-10T16:04:24.464Z
+    - tags:
+        - 0.3.1
+      createdOn: 2024-11-18T14:24:28.291Z
+      lastUpdatedOn: 2024-11-18T14:24:28.291Z
+    - tags:
+        - 0.3.3
+      createdOn: 2025-03-17T13:48:14.685Z
+      lastUpdatedOn: 2025-03-17T13:48:14.685Z
