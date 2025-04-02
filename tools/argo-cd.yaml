@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+  description: Helm chart for argo-cd
+  name: argo-cd
+spec:
+  appVersion: v2.10.7
+  chartVersion: 6.7.14
+  lifecycle: production
+  owner: platform-team
+  type: service
