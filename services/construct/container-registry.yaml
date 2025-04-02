@@ -1,0 +1,30 @@
+apiVersion: backstage.io/v1alpha1
+kind: infra-service/construct
+metadata:
+  name: container-registry
+  description: Repository for construct
+  annotations:
+    backstage.io/managed-by-location: >-
+      url:https://contregietbmrpet01.azurecr.io/bicep/constructs/container-registry
+    backstage.io/managed-by-origin-location: >-
+      url:https://contregietbmrpet01.azurecr.io/bicep/constructs/container-registry
+  tags:
+    - construct
+    - container
+    - azure
+spec:
+  type: construct
+  lifecycle: production
+  owner: team-name
+  links:
+    - url: >-
+        https://contregietbmrpet01.azurecr.io/bicep/constructs/container-registry
+      title: Container Registry
+      icon: link
+  version: 0.1.1
+  manifests:
+    - digest: sha256:6ccdcbeb809578a04d3f04652b2ac632048295f74ea706dec68963638b5e69c7
+      tags:
+        - 0.1.1
+      createdOn: 2024-03-20T06:57:34.064Z
+      lastUpdatedOn: 2024-03-20T06:57:34.064Z
