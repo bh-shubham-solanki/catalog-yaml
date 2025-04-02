@@ -1,0 +1,227 @@
+apiVersion: backstage.io/v1alpha1
+kind: infra-service/stamps
+metadata:
+  name: cordant-app
+  description: Repository for stamps
+  annotations:
+    backstage.io/managed-by-location: url:https://contregietbmrpet01.azurecr.io/bicep/stamps/cordant-app
+    backstage.io/managed-by-origin-location: url:https://contregietbmrpet01.azurecr.io/bicep/stamps/cordant-app
+  tags:
+    - stamps
+    - container
+    - azure
+spec:
+  type: stamps
+  lifecycle: production
+  owner: team-name
+  links:
+    - url: https://contregietbmrpet01.azurecr.io/bicep/stamps/cordant-app
+      title: Container Registry
+      icon: link
+  version: 0.11.6
+  manifests:
+    - digest: sha256:11c44ab4f587336f2bdd443dcae3f7d8a29edf982c4809a473fb3666089caabe
+      tags:
+        - 0.3.1
+      createdOn: 2023-08-31T05:34:06.189Z
+      lastUpdatedOn: 2023-08-31T05:34:06.189Z
+    - digest: sha256:143298ca731d582a276d24ceb1b722f878c4e2ebf7e91e9890e93a7acae689ba
+      tags:
+        - 0.5.4
+      createdOn: 2023-11-15T14:52:34.297Z
+      lastUpdatedOn: 2023-11-15T14:52:34.297Z
+    - digest: sha256:1a3f016a41eadc86102c03f9e973b9494b5d9d1be02bf01abd2b83089c560f8c
+      tags:
+        - 0.9.8
+      createdOn: 2024-06-05T15:49:38.074Z
+      lastUpdatedOn: 2024-06-05T15:49:38.074Z
+    - digest: sha256:227c51f97b983db0a17e9be93d24765620b445bc0d17f3330455695345910fa2
+      tags:
+        - 0.11.5
+      createdOn: 2025-03-19T15:05:42.445Z
+      lastUpdatedOn: 2025-03-19T15:05:42.445Z
+    - digest: sha256:24a128cb93cb3b4bc2abda8dc47bd7514ee4e63f2a4cf2d6296a50bd61ed47d4
+      tags:
+        - 0.8.1
+      createdOn: 2023-12-11T10:46:41.580Z
+      lastUpdatedOn: 2023-12-11T10:46:41.580Z
+    - digest: sha256:24d4876d40f08cf4336fcfaac377752f9fcf7deeef5ef497a2733e9ff5cbc413
+      tags:
+        - 0.7.1
+      createdOn: 2023-11-24T10:30:51.622Z
+      lastUpdatedOn: 2023-11-24T10:30:51.622Z
+    - digest: sha256:2711644aca56f183c42b5499435e2052ccda3c281335530961f1bb4c3454e823
+      tags:
+        - 0.11.1
+      createdOn: 2024-10-30T16:39:46.258Z
+      lastUpdatedOn: 2024-10-30T16:39:46.258Z
+    - digest: sha256:3084da3363743463f33e29b2ca0617b197073751f2f80e6857d891c589d5732a
+      tags:
+        - 0.9.9
+      createdOn: 2024-06-06T14:32:21.236Z
+      lastUpdatedOn: 2024-06-06T14:32:21.236Z
+    - digest: sha256:36cc5aa744a1c7b3869ae4b457d3464c5d6acd424823026d1ab5fafea962f46e
+      tags:
+        - 0.11.6
+      createdOn: 2025-03-20T16:12:35.941Z
+      lastUpdatedOn: 2025-03-20T16:12:35.941Z
+    - digest: sha256:48c9e7ac0dc3d172ad272ef5c642b2b2337b1a4f185f70bc365549e4d1d060cb
+      tags:
+        - 0.10.2
+      createdOn: 2024-07-08T13:00:26.388Z
+      lastUpdatedOn: 2024-07-08T13:00:26.388Z
+    - digest: sha256:5116e8c33bf3f898f1470c4b31823fffe4c1f9de807cb91fa7c5dfedd5b14e9a
+      tags:
+        - 0.1.1
+      createdOn: 2023-08-22T12:48:38.421Z
+      lastUpdatedOn: 2023-08-22T12:48:38.421Z
+    - digest: sha256:54dbed3f01316e0d7ce1611f1080ca66cac4ce8b87bf7a99b455b2a8ede687ab
+      tags:
+        - 0.6.5
+      createdOn: 2023-11-24T09:30:43.778Z
+      lastUpdatedOn: 2023-11-24T09:30:43.778Z
+    - digest: sha256:59cd3b33c3c71f8117873ac3b700cd6a487e67815d76c33c6a89741b9c5d8a2f
+      tags:
+        - 0.10.6
+      createdOn: 2024-09-11T07:27:15.985Z
+      lastUpdatedOn: 2024-09-11T07:27:15.985Z
+    - digest: sha256:7838a5a88c48f66b9b356d5e67695513b6ec1b06ecd6c17ab8a5ec2429c7fae9
+      tags:
+        - 0.5.5
+      createdOn: 2023-11-20T17:16:01.513Z
+      lastUpdatedOn: 2023-11-20T17:16:01.513Z
+    - digest: sha256:7fb08ac03aa7b58d70b85b4874d00b168cb4a2c7ed3c8ccc44c5ffc4aa001004
+      tags:
+        - 0.10.8
+      createdOn: 2024-10-09T09:03:45.272Z
+      lastUpdatedOn: 2024-10-09T09:03:45.272Z
+    - digest: sha256:8076dca763107fd01b1c6b887384b4e933d9208322d98c3b8f7cec0c862dd319
+      tags:
+        - 0.11.4
+      createdOn: 2025-01-28T11:25:10.594Z
+      lastUpdatedOn: 2025-01-28T11:25:10.594Z
+    - digest: sha256:89f6e313b743aceea9c10d7092d2105307c3822f3ead69ae51136b9dbaf98bf4
+      tags:
+        - 0.6.4
+      createdOn: 2023-11-23T13:03:19.999Z
+      lastUpdatedOn: 2023-11-23T13:03:19.999Z
+    - digest: sha256:aa6edc5ea8a1c2bc1b031174657d5ab4fff311d1aa929c6e8b5e175f7c2ca754
+      tags:
+        - 0.9.5
+      createdOn: 2024-04-24T07:41:21.218Z
+      lastUpdatedOn: 2024-04-24T07:41:21.218Z
+    - digest: sha256:ac113113d0fff24ee114e9313fec9d04d0a1fe8152c80d5cd773b8ec3b8070ce
+      tags:
+        - 0.5.1
+      createdOn: 2023-10-18T16:27:21.284Z
+      lastUpdatedOn: 2023-10-18T16:27:21.284Z
+    - digest: sha256:b2754f999f99be1a8a12c87309f84245031a6db0d8a0fb3e44fb2ad386af14af
+      tags:
+        - 0.9.1
+      createdOn: 2023-12-12T09:06:36.552Z
+      lastUpdatedOn: 2023-12-12T09:06:36.552Z
+    - digest: sha256:b4a3ed4e54308a89a8fb577eacd19a6917f230b14fcc5f42818872849ca87a94
+      tags:
+        - 0.9.6
+      createdOn: 2024-06-05T15:02:26.362Z
+      lastUpdatedOn: 2024-06-05T15:02:26.362Z
+    - digest: sha256:b5524a6c07686efb71398b8064d684e30a164188dfbf5679ec7103cbae6b95f5
+      tags:
+        - 0.9.2
+      createdOn: 2024-02-28T16:58:35.237Z
+      lastUpdatedOn: 2024-02-28T16:58:35.237Z
+    - digest: sha256:b6de555f3738cfe70d1f8284da1f3070cdf96c65165ace214ba229fc4795b97b
+      tags:
+        - 0.10.1
+      createdOn: 2024-06-28T07:05:50.948Z
+      lastUpdatedOn: 2024-06-28T07:05:50.948Z
+    - digest: sha256:b8d19441a37097bd3fc3940c9996a886c702a76a10b441fdb042afc2a07a4b7b
+      tags:
+        - 0.6.2
+      createdOn: 2023-11-21T09:36:48.698Z
+      lastUpdatedOn: 2023-11-21T09:36:48.698Z
+    - digest: sha256:bcd26849aeb5765338bc0fed9083bb6921806f574abe15bbcbbe0a7d06e47734
+      tags:
+        - 0.9.4
+      createdOn: 2024-03-20T10:28:50.895Z
+      lastUpdatedOn: 2024-03-20T10:28:50.895Z
+    - digest: sha256:bff0253b94d5226a4d2dec84f6d7dc9eb4936b421ad465d6b5c4f64dfb70dc38
+      tags:
+        - 0.10.7
+      createdOn: 2024-10-03T11:51:42.560Z
+      lastUpdatedOn: 2024-10-03T11:51:42.560Z
+    - digest: sha256:c49db27a314aa6b3a50418b1cd1d90ba4749681a1d99a5d07f49a89d3bff7a83
+      tags:
+        - 0.2.1
+      createdOn: 2023-08-24T12:39:16.654Z
+      lastUpdatedOn: 2023-08-24T12:39:16.654Z
+    - digest: sha256:cc7a50178b3046bd87bdc7f9c4f9dc5289d899ad174977476fe704ecc0095682
+      tags:
+        - 0.11.3
+      createdOn: 2025-01-27T17:07:12.047Z
+      lastUpdatedOn: 2025-01-27T17:07:12.047Z
+    - digest: sha256:ceb17a19b3c3ac69c9d2b9931831c85a295e46ddbafc743df78a582a973e53d7
+      tags:
+        - 0.6.3
+      createdOn: 2023-11-21T10:20:30.139Z
+      lastUpdatedOn: 2023-11-21T10:20:30.139Z
+    - digest: sha256:ceb43f3c00c2b3a09544445be5f9d86f72fe20d7985bac3392544de968fecc3b
+      tags:
+        - 0.10.3
+      createdOn: 2024-07-09T15:25:57.706Z
+      lastUpdatedOn: 2024-07-09T15:25:57.706Z
+    - digest: sha256:d101655c0b88c7b3ebdc10680281d529f3aa1230d091829758b2ae61f5c10f18
+      tags:
+        - 0.4.2
+      createdOn: 2023-10-12T16:26:34.290Z
+      lastUpdatedOn: 2023-10-12T16:26:34.290Z
+    - digest: sha256:d2df2cf8a5bb1241fac208a26e756d34d9169021f9312e38f30ce7d3a11aa7fa
+      tags:
+        - 0.5.2
+      createdOn: 2023-10-19T15:45:10.355Z
+      lastUpdatedOn: 2023-10-19T15:45:10.355Z
+    - digest: sha256:d2f0293e4de6f9a055e1b0561f7a6d7a9c34b30e4745fa4f727fa3c3487beef2
+      tags:
+        - 0.6.1
+      createdOn: 2023-11-21T08:33:23.756Z
+      lastUpdatedOn: 2023-11-21T08:33:23.756Z
+    - digest: sha256:d66eeab1fbe4da87e5592c5b60cfa62cc05f16e5db9a3fed5d2affa71a00ddc8
+      tags:
+        - 0.4.1
+      createdOn: 2023-10-12T15:22:58.370Z
+      lastUpdatedOn: 2023-10-12T15:22:58.370Z
+    - digest: sha256:de413a0bdaa3a9a8de7e9116f0ae92b71340ce311045a3c06ae0486e758f7b45
+      tags:
+        - 0.3.3
+      createdOn: 2023-09-12T06:28:49.395Z
+      lastUpdatedOn: 2023-09-12T06:28:49.395Z
+    - digest: sha256:e29f3e23cbf67b958a692c56da29eeb01f2a464ae60af4f22db78cdef4a91be7
+      tags:
+        - 0.11.2
+      createdOn: 2024-11-05T10:14:10.145Z
+      lastUpdatedOn: 2024-11-05T10:14:10.145Z
+    - digest: sha256:e678ce322c18e7ae97ef46c92259190ab6a8100e6dac555899e26031cd18dd17
+      tags:
+        - 0.10.5
+      createdOn: 2024-09-10T14:46:20.035Z
+      lastUpdatedOn: 2024-09-10T14:46:20.035Z
+    - digest: sha256:eab5b9fa6581a9bd887e48dc9a16578515bb54b642ea6915b45e3d67ce9ef078
+      tags:
+        - 0.9.7
+      createdOn: 2024-06-05T15:40:45.736Z
+      lastUpdatedOn: 2024-06-05T15:40:45.736Z
+    - digest: sha256:f493e1881b6000b39907e1ceff5eb40c8a96b7329156c5950f9ddd676c6570e4
+      tags:
+        - 0.3.2
+      createdOn: 2023-09-01T16:31:34.898Z
+      lastUpdatedOn: 2023-09-01T16:31:34.898Z
+    - digest: sha256:f4d0d7801d296b4d2d716c9b8573c50361e52246c604149deeafb428e26382b6
+      tags:
+        - 0.10.4
+      createdOn: 2024-07-09T15:56:17.021Z
+      lastUpdatedOn: 2024-07-09T15:56:17.021Z
+    - digest: sha256:f9e46a16bb656dfb99037ebf9a03dd9614fb24f9da4360623d9d150d8d401d64
+      tags:
+        - 0.5.3
+      createdOn: 2023-10-19T16:21:26.771Z
+      lastUpdatedOn: 2023-10-19T16:21:26.771Z
