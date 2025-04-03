@@ -1,0 +1,43 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sql-server-database
+  description: Repository for constructs
+  annotations:
+    backstage.io/managed-by-location: >-
+      url:https://contregietbmrpet01.azurecr.io/bicep/constructs/sql-server-database
+    backstage.io/managed-by-origin-location: >-
+      url:https://contregietbmrpet01.azurecr.io/bicep/constructs/sql-server-database
+    backstage.io/techdocs-ref: >-
+      url:https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/sql-server-database/README.md
+  tags:
+    - constructs
+    - container
+    - azure
+spec:
+  type: constructs
+  lifecycle: production
+  owner: team-name
+  links:
+    - url: >-
+        https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/sql-server-database/main.bicep
+      title: Source Code
+      icon: link
+    - url: >-
+        https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/sql-server-database/README.md
+      title: Readme
+      icon: link
+  version: 0.2.2
+  manifests:
+    - tags:
+        - 0.2.1
+      createdOn: 2023-11-07T07:18:08.824Z
+      lastUpdatedOn: 2023-11-07T07:18:08.824Z
+    - tags:
+        - 0.2.2
+      createdOn: 2024-03-11T04:55:02.227Z
+      lastUpdatedOn: 2024-03-11T04:55:02.227Z
+    - tags:
+        - 0.1.1
+      createdOn: 2023-06-30T12:21:57.383Z
+      lastUpdatedOn: 2023-06-30T12:21:57.383Z
