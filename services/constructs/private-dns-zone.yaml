@@ -1,0 +1,39 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: private-dns-zone
+  description: Repository for constructs
+  annotations:
+    backstage.io/managed-by-location: >-
+      url:https://contregietbmrpet01.azurecr.io/bicep/constructs/private-dns-zone
+    backstage.io/managed-by-origin-location: >-
+      url:https://contregietbmrpet01.azurecr.io/bicep/constructs/private-dns-zone
+    backstage.io/techdocs-ref: >-
+      url:https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/private-dns-zone/README.md
+  tags:
+    - constructs
+    - container
+    - azure
+spec:
+  type: constructs
+  lifecycle: production
+  owner: team-name
+  links:
+    - url: >-
+        https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/private-dns-zone/main.bicep
+      title: Source Code
+      icon: link
+    - url: >-
+        https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/private-dns-zone/README.md
+      title: Readme
+      icon: link
+  version: 0.2.2
+  manifests:
+    - tags:
+        - 0.2.1
+      createdOn: 2023-06-30T12:01:15.345Z
+      lastUpdatedOn: 2023-06-30T12:01:15.345Z
+    - tags:
+        - 0.2.2
+      createdOn: 2024-03-11T15:02:23.816Z
+      lastUpdatedOn: 2024-03-11T15:02:23.816Z
