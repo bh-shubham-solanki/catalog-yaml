@@ -1,0 +1,53 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ai-studio
+  description: Repository for constructs
+  annotations:
+    backstage.io/managed-by-location: url:https://contregietbmrpet01.azurecr.io/bicep/constructs/ai-studio
+    backstage.io/managed-by-origin-location: url:https://contregietbmrpet01.azurecr.io/bicep/constructs/ai-studio
+    backstage.io/techdocs-ref: >-
+      url:https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/ai-studio/README.md
+  tags:
+    - constructs
+    - container
+    - azure
+spec:
+  type: constructs
+  lifecycle: production
+  owner: team-name
+  links:
+    - url: >-
+        https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/ai-studio/main.bicep
+      title: Source Code
+      icon: link
+    - url: >-
+        https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/ai-studio/README.md
+      title: Readme
+      icon: link
+  version: 0.2.5
+  manifests:
+    - tags:
+        - 0.2.0
+      createdOn: 2024-10-11T07:03:56.870Z
+      lastUpdatedOn: 2024-10-11T07:03:56.870Z
+    - tags:
+        - 0.2.1
+      createdOn: 2024-10-18T12:03:20.955Z
+      lastUpdatedOn: 2024-10-18T12:03:20.955Z
+    - tags:
+        - 0.2.2
+      createdOn: 2024-11-21T06:22:40.520Z
+      lastUpdatedOn: 2024-11-21T06:22:40.520Z
+    - tags:
+        - 0.2.4
+      createdOn: 2025-01-03T08:18:53.452Z
+      lastUpdatedOn: 2025-01-03T08:18:53.452Z
+    - tags:
+        - 0.2.3
+      createdOn: 2024-12-11T08:45:20.813Z
+      lastUpdatedOn: 2024-12-11T08:45:20.813Z
+    - tags:
+        - 0.2.5
+      createdOn: 2025-01-03T10:26:10.997Z
+      lastUpdatedOn: 2025-01-03T10:26:10.997Z
