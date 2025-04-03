@@ -1,0 +1,107 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kubernetes-service
+  description: Repository for constructs
+  annotations:
+    backstage.io/managed-by-location: >-
+      url:https://contregietbmrpet01.azurecr.io/bicep/constructs/kubernetes-service
+    backstage.io/managed-by-origin-location: >-
+      url:https://contregietbmrpet01.azurecr.io/bicep/constructs/kubernetes-service
+    backstage.io/techdocs-ref: >-
+      url:https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/kubernetes-service/README.md
+  tags:
+    - constructs
+    - container
+    - azure
+spec:
+  type: constructs
+  lifecycle: production
+  owner: team-name
+  links:
+    - url: >-
+        https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/kubernetes-service/main.bicep
+      title: Source Code
+      icon: link
+    - url: >-
+        https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/kubernetes-service/README.md
+      title: Readme
+      icon: link
+  version: 0.8.6
+  manifests:
+    - tags:
+        - 0.4.5
+      createdOn: 2024-06-05T14:54:06.012Z
+      lastUpdatedOn: 2024-06-05T14:54:06.012Z
+    - tags:
+        - 0.2.1
+      createdOn: 2023-06-21T12:06:57.399Z
+      lastUpdatedOn: 2023-06-21T12:06:57.399Z
+    - tags:
+        - 0.4.3
+      createdOn: 2024-02-28T07:29:51.488Z
+      lastUpdatedOn: 2024-02-28T07:29:51.488Z
+    - tags:
+        - 0.6.2
+      createdOn: 2024-06-28T16:03:10.590Z
+      lastUpdatedOn: 2024-06-28T16:03:10.590Z
+    - tags:
+        - 0.5.1
+      createdOn: 2024-06-06T14:13:50.584Z
+      lastUpdatedOn: 2024-06-06T14:13:50.584Z
+    - tags:
+        - 0.8.3
+      createdOn: 2025-01-24T09:21:17.454Z
+      lastUpdatedOn: 2025-01-24T09:21:17.454Z
+    - tags:
+        - 0.8.1
+      createdOn: 2024-09-10T10:42:03.840Z
+      lastUpdatedOn: 2024-09-10T10:42:03.840Z
+    - tags:
+        - 0.4.2
+      createdOn: 2023-10-12T16:09:18.375Z
+      lastUpdatedOn: 2023-10-12T16:09:18.375Z
+    - tags:
+        - 0.3.1
+      createdOn: 2023-08-30T13:56:19.661Z
+      lastUpdatedOn: 2023-08-30T13:56:19.661Z
+    - tags:
+        - 0.7.1
+      createdOn: 2024-07-08T12:09:59.332Z
+      lastUpdatedOn: 2024-07-08T12:09:59.332Z
+    - tags:
+        - 0.2.2
+      createdOn: 2023-08-23T12:46:50.678Z
+      lastUpdatedOn: 2023-08-23T12:46:50.678Z
+    - tags:
+        - 0.8.2
+      createdOn: 2024-09-10T13:04:18.223Z
+      lastUpdatedOn: 2024-09-10T13:04:18.223Z
+    - tags:
+        - 0.7.2
+      createdOn: 2024-07-08T15:43:00.672Z
+      lastUpdatedOn: 2024-07-08T15:43:00.672Z
+    - tags:
+        - 0.6.1
+      createdOn: 2024-06-27T15:15:21.924Z
+      lastUpdatedOn: 2024-06-27T15:15:21.924Z
+    - tags:
+        - 0.4.1
+      createdOn: 2023-10-12T10:00:11.373Z
+      lastUpdatedOn: 2023-10-12T10:00:11.373Z
+    - tags:
+        - 0.8.5
+      createdOn: 2025-03-19T14:06:48.539Z
+      lastUpdatedOn: 2025-03-19T14:06:48.539Z
+    - tags:
+        - 0.4.4
+      createdOn: 2024-03-11T15:01:00.402Z
+      lastUpdatedOn: 2024-03-11T15:01:00.402Z
+    - tags:
+        - 0.8.6
+      createdOn: 2025-03-20T14:14:57.314Z
+      lastUpdatedOn: 2025-03-20T14:14:57.314Z
+    - tags:
+        - 0.8.4
+      createdOn: 2025-01-27T15:03:03.499Z
+      lastUpdatedOn: 2025-01-27T15:03:03.499Z
