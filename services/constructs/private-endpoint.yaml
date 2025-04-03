@@ -1,0 +1,63 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: private-endpoint
+  description: Repository for constructs
+  annotations:
+    backstage.io/managed-by-location: >-
+      url:https://contregietbmrpet01.azurecr.io/bicep/constructs/private-endpoint
+    backstage.io/managed-by-origin-location: >-
+      url:https://contregietbmrpet01.azurecr.io/bicep/constructs/private-endpoint
+    backstage.io/techdocs-ref: >-
+      url:https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/private-endpoint/README.md
+  tags:
+    - constructs
+    - container
+    - azure
+spec:
+  type: constructs
+  lifecycle: production
+  owner: team-name
+  links:
+    - url: >-
+        https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/private-endpoint/main.bicep
+      title: Source Code
+      icon: link
+    - url: >-
+        https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/private-endpoint/README.md
+      title: Readme
+      icon: link
+  version: 0.3.6
+  manifests:
+    - tags:
+        - 0.3.6
+      createdOn: 2025-03-24T10:48:44.832Z
+      lastUpdatedOn: 2025-03-24T10:48:44.832Z
+    - tags:
+        - 0.2.1
+      createdOn: 2023-06-28T13:13:55.662Z
+      lastUpdatedOn: 2023-06-28T13:13:55.662Z
+    - tags:
+        - 0.3.3
+      createdOn: 2024-06-28T07:07:52.819Z
+      lastUpdatedOn: 2024-06-28T07:07:52.819Z
+    - tags:
+        - 0.3.2
+      createdOn: 2024-03-06T19:01:56.004Z
+      lastUpdatedOn: 2024-03-06T19:01:56.004Z
+    - tags:
+        - 0.2.2
+      createdOn: 2023-09-25T14:59:31.862Z
+      lastUpdatedOn: 2023-09-25T14:59:31.862Z
+    - tags:
+        - 0.3.5
+      createdOn: 2024-09-25T13:31:45.276Z
+      lastUpdatedOn: 2024-09-25T13:31:45.276Z
+    - tags:
+        - 0.3.4
+      createdOn: 2024-08-29T07:20:23.565Z
+      lastUpdatedOn: 2024-08-29T07:20:23.565Z
+    - tags:
+        - 0.3.1
+      createdOn: 2023-10-03T12:42:40.396Z
+      lastUpdatedOn: 2023-10-03T12:42:40.396Z
