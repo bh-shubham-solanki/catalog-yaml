@@ -9,7 +9,7 @@ metadata:
     backstage.io/managed-by-origin-location: >-
       url:https://contregietbmrpet01.azurecr.io/bicep/constructs/log-analytics-workspace
     backstage.io/techdocs-ref: >-
-      url:https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/log-analytics-workspace/README.md
+      url:https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/log-analytics-workspace
   tags:
     - constructs
     - container
