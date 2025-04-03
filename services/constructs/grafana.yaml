@@ -7,7 +7,7 @@ metadata:
     backstage.io/managed-by-location: url:https://contregietbmrpet01.azurecr.io/bicep/constructs/grafana
     backstage.io/managed-by-origin-location: url:https://contregietbmrpet01.azurecr.io/bicep/constructs/grafana
     backstage.io/techdocs-ref: >-
-      url:https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/grafana/README.md
+      url:https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/grafana
   tags:
     - constructs
     - container
