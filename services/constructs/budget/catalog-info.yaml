@@ -1,0 +1,33 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: budget
+  description: Repository for constructs
+  annotations:
+    backstage.io/managed-by-location: url:https://contregietbmrpet01.azurecr.io/bicep/constructs/budget
+    backstage.io/managed-by-origin-location: url:https://contregietbmrpet01.azurecr.io/bicep/constructs/budget
+    backstage.io/techdocs-ref: >-
+      url:https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/budget
+  tags:
+    - constructs
+    - container
+    - azure
+spec:
+  type: constructs
+  lifecycle: production
+  owner: team-name
+  links:
+    - url: >-
+        https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/budget/main.bicep
+      title: Source Code
+      icon: link
+    - url: >-
+        https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/budget/README.md
+      title: Readme
+      icon: link
+  version: 0.1.1
+  manifests:
+    - tags:
+        - 0.1.1
+      createdOn: 2024-07-08T12:19:03.855Z
+      lastUpdatedOn: 2024-07-08T12:19:03.855Z
