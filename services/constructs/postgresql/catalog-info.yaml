@@ -1,0 +1,65 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: postgresql
+  description: Repository for constructs
+  annotations:
+    backstage.io/managed-by-location: url:https://contregietbmrpet01.azurecr.io/bicep/constructs/postgresql
+    backstage.io/managed-by-origin-location: url:https://contregietbmrpet01.azurecr.io/bicep/constructs/postgresql
+    backstage.io/techdocs-ref: >-
+      url:https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/postgresql
+  tags:
+    - constructs
+    - container
+    - azure
+spec:
+  type: constructs
+  lifecycle: production
+  owner: team-name
+  links:
+    - url: >-
+        https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/postgresql/main.bicep
+      title: Source Code
+      icon: link
+    - url: >-
+        https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/postgresql/README.md
+      title: Readme
+      icon: link
+  version: 0.3.8
+  manifests:
+    - tags:
+        - 0.3.5
+      createdOn: 2024-04-23T11:19:43.346Z
+      lastUpdatedOn: 2024-04-23T11:19:43.346Z
+    - tags:
+        - 0.3.7
+      createdOn: 2024-12-03T13:12:08.466Z
+      lastUpdatedOn: 2024-12-03T13:12:08.466Z
+    - tags:
+        - 0.3.6
+      createdOn: 2024-10-25T13:49:39.834Z
+      lastUpdatedOn: 2024-10-25T13:49:39.834Z
+    - tags:
+        - 0.3.8
+      createdOn: 2025-02-10T14:02:45.096Z
+      lastUpdatedOn: 2025-02-10T14:02:45.096Z
+    - tags:
+        - 0.2.1
+      createdOn: 2023-06-30T12:14:19.369Z
+      lastUpdatedOn: 2023-06-30T12:14:19.369Z
+    - tags:
+        - 0.3.2
+      createdOn: 2024-02-08T07:38:56.088Z
+      lastUpdatedOn: 2024-02-08T07:38:56.088Z
+    - tags:
+        - 0.3.4
+      createdOn: 2024-03-07T02:09:24.337Z
+      lastUpdatedOn: 2024-03-07T02:09:24.337Z
+    - tags:
+        - 0.3.3
+      createdOn: 2024-03-06T14:42:26.966Z
+      lastUpdatedOn: 2024-03-06T14:42:26.966Z
+    - tags:
+        - 0.3.1
+      createdOn: 2023-10-11T05:19:24.380Z
+      lastUpdatedOn: 2023-10-11T05:19:24.380Z
