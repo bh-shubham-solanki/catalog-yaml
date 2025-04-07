@@ -1,0 +1,43 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: databricks-workspace
+  description: Repository for constructs
+  annotations:
+    backstage.io/managed-by-location: >-
+      url:https://contregietbmrpet01.azurecr.io/bicep/constructs/databricks-workspace
+    backstage.io/managed-by-origin-location: >-
+      url:https://contregietbmrpet01.azurecr.io/bicep/constructs/databricks-workspace
+    backstage.io/techdocs-ref: >-
+      url:https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/databricks-workspace
+  tags:
+    - constructs
+    - container
+    - azure
+spec:
+  type: constructs
+  lifecycle: production
+  owner: team-name
+  links:
+    - url: >-
+        https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/databricks-workspace/main.bicep
+      title: Source Code
+      icon: link
+    - url: >-
+        https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/databricks-workspace/README.md
+      title: Readme
+      icon: link
+  version: 0.2.2
+  manifests:
+    - tags:
+        - 0.2.2
+      createdOn: 2024-06-21T05:56:43.404Z
+      lastUpdatedOn: 2024-06-21T05:56:43.404Z
+    - tags:
+        - 0.2.0
+      createdOn: 2023-10-05T14:54:30.778Z
+      lastUpdatedOn: 2023-10-05T14:54:30.778Z
+    - tags:
+        - 0.2.1
+      createdOn: 2024-03-11T14:55:28.717Z
+      lastUpdatedOn: 2024-03-11T14:55:28.717Z
