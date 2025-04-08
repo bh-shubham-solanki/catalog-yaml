@@ -1,0 +1,41 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: alert-rules
+  description: Repository for constructs
+  annotations:
+    backstage.io/managed-by-location: url:https://contregietbmrpet01.azurecr.io/bicep/constructs/alert-rules
+    backstage.io/managed-by-origin-location: url:https://contregietbmrpet01.azurecr.io/bicep/constructs/alert-rules
+    backstage.io/techdocs-ref: >-
+      url:https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/alert-rules
+  tags:
+    - constructs
+    - container
+    - azure
+spec:
+  type: constructs
+  lifecycle: production
+  owner: team-name
+  links:
+    - url: >-
+        https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/alert-rules/main.bicep
+      title: Source Code
+      icon: link
+    - url: >-
+        https://github.com/bh-ent-tech/bh-bicep-registry-modules/blob/main/modules/constructs/alert-rules/README.md
+      title: Readme
+      icon: link
+  version: 0.1.3
+  manifests:
+    - tags:
+        - 0.1.3
+      createdOn: 2025-01-24T09:28:51.022Z
+      lastUpdatedOn: 2025-01-24T09:28:51.022Z
+    - tags:
+        - 0.1.2
+      createdOn: 2024-11-18T14:21:07.192Z
+      lastUpdatedOn: 2024-11-18T14:21:07.192Z
+    - tags:
+        - 0.1.1
+      createdOn: 2024-10-30T07:05:12.320Z
+      lastUpdatedOn: 2024-10-30T07:05:12.320Z
